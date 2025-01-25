@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && cd build && copy index.html 200.html",
-    "deploy": "surge ./dist --domain todo-list-mongodb.surge.sh",
+    "deploy": "surge ./dist --domain login-signup-page.surge.sh",
     "lint": "eslint .",
     "preview": "vite preview"
   },
